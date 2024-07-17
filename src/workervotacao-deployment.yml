@@ -25,7 +25,7 @@ spec:
         - name: ApacheKafka__GroupId
           value: worker
         - name: ApacheKafka__Host
-          value: groffeeventhubs.servicebus.windows.net:9093
+          value: resource.servicebus.windows.net:9093
         - name: ApacheKafka__Username
           valueFrom:
             secretKeyRef:
