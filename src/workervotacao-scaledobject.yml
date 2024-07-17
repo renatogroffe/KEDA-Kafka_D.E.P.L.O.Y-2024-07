@@ -30,7 +30,7 @@ spec:
   triggers:
   - type: kafka
     metadata:
-      bootstrapServers: groffeeventhubs.servicebus.windows.net:9093
+      bootstrapServers: resource.servicebus.windows.net:9093
       consumerGroup: worker
       topic: topic-votacao
       lagThreshold: '5'
